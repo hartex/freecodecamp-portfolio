@@ -1,0 +1,50 @@
+h1{
+	color: black;
+}
+
+p{
+	color: white;
+	font-size: 16px;
+}
+
+.bg{
+	background-attachment:fixed;
+	width: 100%;
+	background-size: cover;
+}
+
+#bg1{
+	text-align: center;
+	margin-top: 50px;
+	height: 805px;
+}
+
+#bg1:after{
+	content: "";
+	background: url(../images/coworking1.jpg) center center no-repeat fixed;
+	opacity: 0.4;
+	top: 0; bottom: 0; left: 0; right: 0;
+	position: absolute;
+	z-index: -1;
+	height: 855px;
+}
+
+#bg2{
+	background: url(../images/footer_lodyas.png) center center fixed;
+	height: 855px;
+}
+
+#top-information-section{
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+#middle-information-section{
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+#avatar-image img{
+	width: 70%;
+	height: 70%;
+}
